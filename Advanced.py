@@ -11,7 +11,30 @@ c = '3'
 #/////////////////////////////////////////////////////////////////////////////////////////////
 var = 0,1,2,3,4,5,6,0,7,8,9,0,0,7,100
 List = [5 for i in var]
-print(List)
+#print(List)
 List1 = [i for i in var if i !=0]
-print(List1)
+#print(List1)
 #////////////////////////////////////////////////////////////////////////////////////
+# import only system from os 
+from os import system, name 
+
+# import sleep to show output for some time period 
+from time import sleep 
+
+# define our clear function 
+def clear(): 
+
+	# for windows 
+	if name == 'nt': 
+		_ = system('cls') 
+
+	# for mac and linux(here, os.name is 'posix') 
+	else: 
+		_ = system('clear') 
+clear() 
+# print out some text 
+for i in range(3):
+    print(3-i)
+    sleep(1) 
+    clear() 
+#////////////////////////////////////////////////////////////////////
