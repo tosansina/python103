@@ -1,7 +1,7 @@
 A = [0,1,'two'] # Created list  // list() // mutable-ordered
-B = (3,4,'Five') # created Tuple // tuple() // mutable-ordered
-C = {'target1':'python','target2':'Image_Processing'} #Created Dictionary  //dict() // mutable - unordered
-D = {6,7,'seven'} # Created set  // set() // immutable - unordered
+B = 3,4,'Five' # created Tuple // tuple() // immutable-ordered
+C = {'target1':'python','target2':'Image_Processing'} #Created Dictionary  //dict() // mutable - unordered -index multi type
+D = {6,7,'seven'} # Created set  // set() // immutable - unordered - uniqe
 #print (type(A),type(B),type(C),type(D))
 #//////////////////////////////////////////////////////////////////////////////////////
 a = 1
@@ -38,3 +38,10 @@ for i in range(3):
     sleep(1) 
     clear() 
 #////////////////////////////////////////////////////////////////////
+
+List = [2,1,0]
+for i,j in enumerate(List):
+	print(i,j)
+
+#//////////////////////////////////////////////////////////////////////	
+
