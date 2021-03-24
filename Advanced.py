@@ -4,11 +4,7 @@ C = {'target1':'python','target2':'Image_Processing'} #Created Dictionary  //dic
 D = {6,7,'seven'} # Created set  // set() // immutable - unordered - uniqe
 #print (type(A),type(B),type(C),type(D))
 #//////////////////////////////////////////////////////////////////////////////////////
-a = 1
-b = 2.5 
-c = '3'
-#print ("value a = %i, value b = %f, value c = %c"  % (a,b,c))
-#/////////////////////////////////////////////////////////////////////////////////////////////
+
 var = 0,1,2,3,4,5,6,0,7,8,9,0,0,7,100
 List = [5 for i in var]
 #print(List)
@@ -34,14 +30,20 @@ def clear():
 clear() 
 # print out some text 
 for i in range(3):
-    print(3-i)
+    #print(3-i)
     sleep(1) 
     clear() 
 #////////////////////////////////////////////////////////////////////
-
 List = [2,1,0]
 for i,j in enumerate(List):
-	print(i,j)
+	#print(i,j)
+	print()
 
-#//////////////////////////////////////////////////////////////////////	
-
+#//////////////////////////////////////////////////////////////////////
+	
+a = 1
+b = 2.5 
+c = '3'
+#print ("value a = %i, value b = %f, value c = %c"  % (a,b,c))
+print(f"a={a} , b={b}, c={c} ")
+#/////////////////////////////////////////////////////////////////////////////////////////////
